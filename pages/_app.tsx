@@ -6,7 +6,7 @@ import Footer from "@/src/components/Footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className="h-screen overflow-auto bg-bodyColor text-lightText">
+    <div className="h-full bg-bodyColor text-lightText">
       <Header />
       <Component {...pageProps} />
       <Footer />

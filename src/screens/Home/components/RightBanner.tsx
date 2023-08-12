@@ -10,7 +10,7 @@ const RightBanner = () => {
         src={profileImage}
         alt="bannerImg"
       />
-      <div className="absolute top-1/2 md:right-[200px] w-[350px] h-[200px] lgl:w-[500px] lgl:h-[300px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+      <div className="absolute top-[40%] md:right-[15%] w-[350px] h-[200px] lgl:w-[500px] lgl:h-[300px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
     </div>
   );
 };

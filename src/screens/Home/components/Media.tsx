@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 import FacebookIcon from "@/public/assets/icons/facebookIcon.svg";
 import LinkedInIcon from "@/public/assets/icons/linkedInIcon.svg";
 import TwitterIcon from "@/public/assets/icons/twitterIcon.svg";
@@ -6,8 +8,6 @@ import ReactIcon from "@/public/assets/icons/reactIcon.svg";
 import NextJsIcon from "@/public/assets/icons/nextJsIcon.svg";
 import TailwindIcon from "@/public/assets/icons/tailwindIcon.svg";
 import GraphqlIcon from "@/public/assets/icons/graphqlIcon.svg";
-
-import Link from "next/link";
 
 const Media = () => {
   return (
@@ -44,16 +44,16 @@ const Media = () => {
         </h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <NextJsIcon />
+            <NextJsIcon className="w-8 h-8" />
           </span>
           <span className="bannerIcon">
-            <ReactIcon />
+            <ReactIcon className="w-8 h-8" />
           </span>
           <span className="bannerIcon">
-            <GraphqlIcon />
+            <GraphqlIcon className="w-8 h-8" />
           </span>
           <span className="bannerIcon">
-            <TailwindIcon />
+            <TailwindIcon className="w-8 h-8" />
           </span>
         </div>
       </div>
