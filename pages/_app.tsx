@@ -2,13 +2,14 @@ import type { AppProps } from "next/app";
 
 import Header from "@/src/components/Header";
 import "@/styles/globals.css";
+import Footer from "@/src/components/Footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className="h-screen overflow-auto text-lightText">
+    <div className="h-screen overflow-auto bg-bodyColor text-lightText">
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </div>
   );
 }
-/* eslint-disable @next/next/no-html-link-for-pages */
