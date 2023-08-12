@@ -1,3 +1,5 @@
-export default function Home() {
-  return <div>home</div>;
+import Home from "@/src/screens/Home";
+
+export default function home() {
+  return <Home />;
 }
