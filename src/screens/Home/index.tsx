@@ -1,7 +1,8 @@
 import LeftBanner from "@/src/screens/Home/components/LeftBanner";
 import RightBanner from "@/src/screens/Home/components/RightBanner";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Projects from "@/src/screens/Home/components/Projects";
+import Contact from "@/src/screens/Home/components/Contact";
+import About from "@/src/screens/Home/components/About";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <LeftBanner />
         <RightBanner />
       </section>
+      <About />
       <Projects />
       <Contact />
     </div>

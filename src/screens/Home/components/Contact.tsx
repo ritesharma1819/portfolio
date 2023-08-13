@@ -1,5 +1,4 @@
 import Title from "@/src/components/TitleLayout";
-import React, { useState } from "react";
 import ContactOption from "./ContactOption";
 
 const Contact = () => {
