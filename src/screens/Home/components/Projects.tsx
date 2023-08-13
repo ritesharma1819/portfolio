@@ -1,8 +1,6 @@
 import ProjectsCard from "@/src/components/ProjectsCard";
 import Title from "@/src/components/TitleLayout";
-import projectOne from "/public/assets/icons/graphqlIcon.svg";
-import projectTwo from "/public/assets/icons/nextJsIcon.svg";
-import projectThree from "/public/assets/icons/reactIcon.svg";
+import { projectListData } from "@/src/utils/constants";
 
 const Projects = () => {
   return (
@@ -17,42 +15,17 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
+        {projectListData.map((item, index) => (
+          <ProjectsCard
+            key={index}
+            title={item.title}
+            des={item.description}
+            src={item.image}
+            githubLink={item.github}
+            liveLink={item.liveLink}
+            builtIn={item.builtIn}
+          />
+        ))}
       </div>
     </section>
   );
