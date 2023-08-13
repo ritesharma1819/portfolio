@@ -1,5 +1,6 @@
 import LeftBanner from "@/src/screens/Home/components/LeftBanner";
 import RightBanner from "@/src/screens/Home/components/RightBanner";
+import Projects from "./components/Projects";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <LeftBanner />
         <RightBanner />
       </section>
+      <Projects />
     </div>
   );
 };
