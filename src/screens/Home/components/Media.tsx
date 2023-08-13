@@ -43,18 +43,34 @@ const Media = () => {
           BEST SKILL ON
         </h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <Link
+            className="bannerIcon"
+            href="https://nextjs.org/"
+            target="_blank"
+          >
             <NextJsIcon className="w-8 h-8" />
-          </span>
-          <span className="bannerIcon">
+          </Link>
+          <Link
+            className="bannerIcon"
+            href="https://react.dev/"
+            target="_blank"
+          >
             <ReactIcon className="w-8 h-8" />
-          </span>
-          <span className="bannerIcon">
+          </Link>
+          <Link
+            className="bannerIcon"
+            href="https://graphql.org/"
+            target="_blank"
+          >
             <GraphqlIcon className="w-8 h-8" />
-          </span>
-          <span className="bannerIcon">
+          </Link>
+          <Link
+            className="bannerIcon"
+            href="https://tailwindcss.com/"
+            target="_blank"
+          >
             <TailwindIcon className="w-8 h-8" />
-          </span>
+          </Link>
         </div>
       </div>
     </div>
