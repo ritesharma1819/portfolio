@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="CONTACT" des="Contact With Me" />
       </div>
-      <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+      <div className="w-full h-auto flex flex-col lgl:flex-row justify-center">
         <ContactOption />
       </div>
     </section>

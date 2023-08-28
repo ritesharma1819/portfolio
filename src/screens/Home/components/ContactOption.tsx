@@ -9,18 +9,18 @@ import TwitterIcon from "@/public/assets/icons/twitterIcon.svg";
 const ContactOption = () => {
   return (
     <div>
-      <p className="w-full md:w-[80%]">
+      <p className="w-full text-center">
         Feel free to reach out if you want a to build something together, have a
         question, or just want to connect.
       </p>
       <Link
-        className="underline hover:text-designColor py-2"
+        className="underline hover:text-designColor py-2 flex justify-center"
         href="mailto:rs211638@gmail.com"
         target="_blank"
       >
         rs211638@gmail.com
       </Link>
-      <div className="flex gap-4 mt-4">
+      <div className="flex justify-center gap-4 mt-4">
         <Link
           className="bannerIcon"
           href="mailto:rs211638@gmail.com"

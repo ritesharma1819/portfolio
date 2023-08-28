@@ -56,7 +56,7 @@ export const projectListData = [
     image: RawUpLogo,
     github: "https://github.com/ritesharma1819/raw-up",
     liveLink: "https://raw-up.vercel.app/",
-    builtIn: "React, Firebase, Redux",
+    builtIn: "Next, Firebase, Tailwind",
   },
   {
     id: 4,
