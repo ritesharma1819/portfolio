@@ -19,7 +19,7 @@ const About = () => {
         </p>
         <br />
         <p className="w-full md:w-[80%] text-center flex justify-center">
-          I am a Frontend Developer with 1+ years of experience in building web
+          I am a Frontend Developer with 2+ years of experience in building web
           applications. I have a passion for learning and sharing my knowledge
           with others as publicly as possible. I am a self-motivated and
           hardworking person. I believe in smart work and I am a good team
