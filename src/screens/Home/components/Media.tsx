@@ -1,13 +1,12 @@
-import React from "react";
 import Link from "next/link";
 
 import FacebookIcon from "@/public/assets/icons/facebookIcon.svg";
-import LinkedInIcon from "@/public/assets/icons/linkedInIcon.svg";
-import TwitterIcon from "@/public/assets/icons/twitterIcon.svg";
-import ReactIcon from "@/public/assets/icons/reactIcon.svg";
-import NextJsIcon from "@/public/assets/icons/nextJsIcon.svg";
-import TailwindIcon from "@/public/assets/icons/tailwindIcon.svg";
 import GraphqlIcon from "@/public/assets/icons/graphqlIcon.svg";
+import LinkedInIcon from "@/public/assets/icons/linkedInIcon.svg";
+import NextJsIcon from "@/public/assets/icons/nextJsIcon.svg";
+import ReactIcon from "@/public/assets/icons/reactIcon.svg";
+import TailwindIcon from "@/public/assets/icons/tailwindIcon.svg";
+import TwitterIcon from "@/public/assets/icons/twitterIcon.svg";
 
 const Media = () => {
   return (
