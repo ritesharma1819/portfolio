@@ -14,17 +14,27 @@ const About = () => {
       </div>
       <div className="text-center flex flex-col justify-center items-center gap-4">
         <p>
-          I'm a graduate at ITS Engineering College, where I majored in the
-          Mechanical department and successfully completed my degree in 2022.
+          I graduated from ITS Engineering College in 2022 with a degree in
+          Mechanical Engineering. Currently, I am a Software Engineer with over
+          3+ years of experience in building and optimizing web applications. My
+          technical expertise includes{" "}
+          <code>
+            <b>
+              React.js, Next.js, React Native, TypeScript, JavaScript, GraphQL,
+              and Tailwind CSS, with additional familiarity in Flutter
+            </b>
+          </code>{" "}
+          .
         </p>
         <br />
         <p className="w-full md:w-[80%] text-center flex justify-center">
-          I am a Frontend Developer with 2+ years of experience in building web
-          applications. I have a passion for learning and sharing my knowledge
-          with others as publicly as possible. I am a self-motivated and
-          hardworking person. I believe in smart work and I am a good team
-          player. I am a good listener and a quick learner. I am always ready to
-          learn new technologies and implement them in my work.
+          I am deeply passionate about learning new technologies and sharing my
+          knowledge openly with the community. I am a self-motivated,
+          hardworking individual who believes in working smart. A good team
+          player, I thrive in collaborative environments, and my ability to
+          listen actively and learn quickly enables me to adapt to new
+          challenges effectively. I am always eager to explore emerging
+          technologies and apply them to create impactful solutions in my work.
         </p>
       </div>
       <Link

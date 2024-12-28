@@ -7,6 +7,7 @@ import NextJsIcon from "@/public/assets/icons/nextJsIcon.svg";
 import ReactIcon from "@/public/assets/icons/reactIcon.svg";
 import TailwindIcon from "@/public/assets/icons/tailwindIcon.svg";
 import TwitterIcon from "@/public/assets/icons/twitterIcon.svg";
+import GithubIcon from "@/public/assets/icons/githubIcon.svg";
 
 const Media = () => {
   return (
@@ -30,10 +31,10 @@ const Media = () => {
           </Link>
           <Link
             className="bannerIcon"
-            href="https://www.facebook.com/rs211638"
+            href="https://github.com/ritesharma1819"
             target="_blank"
           >
-            <FacebookIcon className="w-4 h-4" />
+            <GithubIcon className="w-5 h-5 fill-white" />
           </Link>
         </div>
       </div>
