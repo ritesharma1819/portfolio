@@ -1,6 +1,4 @@
 import Commerce from "@/public/assets/e-Commerce.png";
-import Instagram from "@/public/assets/instagram.jpg";
-import RawUpLogo from "@/public/assets/rawUpLogo.png";
 import Youtube from "@/public/assets/youtube.jpg";
 
 export const navLinksdata = [
@@ -30,42 +28,61 @@ export const navLinksdata = [
 export const projectListData = [
   {
     id: 1,
-    title: "Youtube Clone",
+    title: "Smart-Money",
     description:
-      "A Youtube Clone built using Next, Redux, Firebase, Material UI, Axios, and Youtube Official API.",
+      "An Angel One project that helps users learn and gain knowledge about trading.",
     image: Youtube,
-    github: "https://github.com/ritesharma1819/youtube-clone",
-    liveLink: "https://youtube-clone-next-firebase.vercel.app/login",
-    builtIn: "Next, Firebase, Material UI",
+    github: "",
+    liveLink: "https://www.angelone.in/smart-money",
+    builtIn: "NextJs, TypeScript , Tailwind, Redux",
   },
   {
     id: 2,
+    title: "Smartrr",
+    description:
+      "Smartrr is used to display reviews of products, companies, services, tools, and more.",
+    image: Youtube,
+    github: "",
+    liveLink: "https://smartrr.me/",
+    builtIn: "Next, GraphQL, Apollo ,Tailwind",
+  },
+  {
+    id: 3,
+    title: "E-Kyc",
+    description: "e-KYC is a process that helps validate user verification.",
+    image: Youtube,
+    github: "",
+    liveLink: "https://almondztrade.com/open-demat-account",
+    builtIn: "ReactJs, Redux, RTK Query, TypeScript",
+  },
+  {
+    id: 4,
+    title: "Client Backoffice",
+    description:
+      "Back-office is a portal where clients can view their portfolio, holdings, apply for IPOs, and more.",
+    image: Youtube,
+    github: "",
+    liveLink: "https://almondztrade.com/backoffice/login",
+    builtIn: "NextJs, Redux, RTK Query, TypeScript",
+  },
+  {
+    id: 5,
     title: "Fire-Commerce",
     description:
       "An E-Commerce website built using React, Redux, Firebase, and Boostrap",
     image: Commerce,
     github: "https://github.com/ritesharma1819/fire-commerce",
     liveLink: "https://fire-commerce-11wgv3sf8-ritesharma1819.vercel.app/login",
-    builtIn: "React, Firebase, Redux",
+    builtIn: "ReactJs, Firebase, Redux",
   },
   {
-    id: 3,
-    title: "Raw-Up",
+    id: 6,
+    title: "Youtube Clone",
     description:
-      "A Social Media website built using Next,TypeScript, Tailwind and Firebase",
-    image: RawUpLogo,
-    github: "https://github.com/ritesharma1819/raw-up",
-    liveLink: "https://raw-up.vercel.app/",
-    builtIn: "Next, Firebase, Tailwind",
-  },
-  {
-    id: 4,
-    title: "Instagram Clone",
-    description:
-      "An Instagram Clone built using React, Redux, Firebase, and React-Routers",
-    image: Instagram,
-    github: "https://github.com/ritesharma1819/instagram-clone",
-    liveLink: "https://instagram-clone-beta-dun.vercel.app/",
-    builtIn: "React, Firebase, Redux",
+      "A Youtube Clone built using Next, Redux, Firebase, Material UI, Axios, and Youtube Official API.",
+    image: Youtube,
+    github: "https://github.com/ritesharma1819/youtube-clone",
+    liveLink: "https://youtube-clone-next-firebase.vercel.app/login",
+    builtIn: "NextJs, Firebase, Material UI",
   },
 ];

@@ -28,8 +28,9 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am passionate about the dynamic realm of web and app development, I
-          shifted my focus to become a skilled Software Engineer.
+          A passionate and skilled Software Engineer specializing in Frontend
+          Development. With a deep-rooted enthusiasm for crafting dynamic and
+          user-centric web experiences.
         </p>
       </div>
       <Media />
