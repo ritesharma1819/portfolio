@@ -1,4 +1,8 @@
 import Commerce from "@/public/assets/e-Commerce.png";
+import SmartMoney from "@/public/assets/smartMoney.jpg";
+import Smartrr from "@/public/assets/smartrr.jpg";
+import EKyc from "@/public/assets/ekyc.jpg";
+import Backoffice from "@/public/assets/backoffice.jpg";
 import Youtube from "@/public/assets/youtube.jpg";
 
 export const navLinksdata = [
@@ -31,7 +35,7 @@ export const projectListData = [
     title: "Smart-Money",
     description:
       "An Angel One project that helps users learn and gain knowledge about trading.",
-    image: Youtube,
+    image: SmartMoney,
     github: "",
     liveLink: "https://www.angelone.in/smart-money",
     builtIn: "NextJs, TypeScript , Tailwind, Redux",
@@ -41,7 +45,7 @@ export const projectListData = [
     title: "Smartrr",
     description:
       "Smartrr is used to display reviews of products, companies, services, tools, and more.",
-    image: Youtube,
+    image: Smartrr,
     github: "",
     liveLink: "https://smartrr.me/",
     builtIn: "Next, GraphQL, Apollo ,Tailwind",
@@ -50,7 +54,7 @@ export const projectListData = [
     id: 3,
     title: "E-Kyc",
     description: "e-KYC is a process that helps validate user verification.",
-    image: Youtube,
+    image: EKyc,
     github: "",
     liveLink: "https://almondztrade.com/open-demat-account",
     builtIn: "ReactJs, Redux, RTK Query, TypeScript",
@@ -60,7 +64,7 @@ export const projectListData = [
     title: "Client Backoffice",
     description:
       "Back-office is a portal where clients can view their portfolio, holdings, apply for IPOs, and more.",
-    image: Youtube,
+    image: Backoffice,
     github: "",
     liveLink: "https://almondztrade.com/backoffice/login",
     builtIn: "NextJs, Redux, RTK Query, TypeScript",

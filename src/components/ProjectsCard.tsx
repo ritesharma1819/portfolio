@@ -31,7 +31,7 @@ const ProjectsCard: FC<IProjectsCardProps> = ({
         className="w-full h-[80%] overflow-hidden rounded-lg"
       >
         <Image
-          className="w-full h-64 object-contain group-hover:scale-110 duration-300 cursor-pointer"
+          className="w-full h-72 object-contain group-hover:scale-110 duration-300 cursor-pointer"
           src={src}
           alt="src"
           loading="lazy"
