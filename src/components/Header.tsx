@@ -10,7 +10,7 @@ import { navLinksdata } from "@/src/utils/constants";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
-  let ScrollLink = Scroll.Link;
+  let ScrollLink: any = Scroll.Link;
 
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-700 px-8">

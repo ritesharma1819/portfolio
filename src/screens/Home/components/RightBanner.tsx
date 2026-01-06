@@ -1,15 +1,10 @@
-import Image from "next/image";
-
-import profileImage from "@/public/assets/profile.jpg";
-
 const RightBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
-      <Image
+      <img
         className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] object-contain z-10"
-        src={profileImage}
+        src={"/assets/profile.jpg"}
         alt="bannerImg"
-        loading="eager"
       />
       <div className="absolute top-[40%] md:right-[15%] w-[350px] h-[200px] lgl:w-[500px] lgl:h-[300px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
     </div>

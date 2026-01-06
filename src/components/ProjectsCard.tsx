@@ -9,7 +9,7 @@ import LinkNavIcon from "/public/assets/icons/linkNavIcon.svg";
 interface IProjectsCardProps {
   title: string;
   des: string;
-  src: StaticImageData;
+  src: any;
   githubLink: string;
   liveLink: string;
   builtIn: string;
@@ -30,11 +30,10 @@ const ProjectsCard: FC<IProjectsCardProps> = ({
         target="_blank"
         className="w-full h-[80%] overflow-hidden rounded-lg"
       >
-        <Image
+        <img
           className="w-full h-72 object-contain group-hover:scale-110 duration-300 cursor-pointer"
           src={src}
           alt="src"
-          loading="lazy"
         />
       </Link>
       <div className="w-full mt-5 flex flex-col  gap-6">
