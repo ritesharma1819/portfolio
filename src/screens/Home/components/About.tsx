@@ -1,51 +1,59 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
-
 import Title from "@/src/components/TitleLayout";
 
 const About = () => {
   return (
-    <section
-      id="about-me"
-      className="w-full py-20 border-b-[1px] border-b-black"
-    >
-      <div className="flex justify-center items-center text-center">
-        <Title title="About Me" des="About Me" />
+    <section id="about-me" className="w-full border-b border-gray-700 py-20">
+      <div className="flex justify-center text-center mb-10">
+        <Title title="About Me" des="Who I Am" />
       </div>
-      <div className="text-center flex flex-col justify-center items-center gap-4">
+
+      <div className="mx-auto flex max-w-4xl flex-col items-center gap-6 px-4 text-center text-gray-300 leading-7">
         <p>
-          I graduated from ITS Engineering College in 2022 with a degree in
-          Mechanical Engineering. Currently, I am a Software Engineer with over
-          3+ years of experience in building and optimizing web applications. My
-          technical expertise includes{" "}
-          <code>
-            <b>
-              React.js, Next.js, React Native, TypeScript, JavaScript, GraphQL,
-              and Tailwind CSS, with additional familiarity in Flutter
-            </b>
-          </code>{" "}
-          .
+          I graduated from{" "}
+          <span className="font-semibold text-white">
+            ITS Engineering College
+          </span>{" "}
+          in 2022 with a degree in Mechanical Engineering. Currently, I am a{" "}
+          <span className="font-semibold text-white">Software Engineer</span>{" "}
+          with over{" "}
+          <span className="font-semibold text-designColor">
+            4+ years of experience
+          </span>{" "}
+          building scalable, high-performance web and mobile applications.
         </p>
-        <br />
-        <p className="w-full md:w-[80%] text-center flex justify-center">
-          I am deeply passionate about learning new technologies and sharing my
-          knowledge openly with the community. I am a self-motivated,
-          hardworking individual who believes in working smart. A good team
-          player, I thrive in collaborative environments, and my ability to
-          listen actively and learn quickly enables me to adapt to new
-          challenges effectively. I am always eager to explore emerging
-          technologies and apply them to create impactful solutions in my work.
+
+        <p>
+          I specialize in modern frontend technologies including{" "}
+          <span className="font-semibold text-white">
+            React.js, Next.js, React Native, Expo, TypeScript, JavaScript,
+            Tailwind CSS, Firebase, and GraphQL
+          </span>
+          , and have hands-on experience developing fintech platforms,
+          AI-powered products, trading applications, and complex user workflows
+          from scratch.
+        </p>
+
+        <p className="max-w-3xl text-gray-400">
+          I am passionate about crafting clean user experiences, solving
+          real-world problems, and continuously learning new technologies. I
+          thrive in collaborative environments, take ownership of critical
+          features, and enjoy building products that create real impact for
+          users and businesses.
         </p>
       </div>
-      <Link
-        href="/assets/resume.pdf"
-        passHref
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex justify-center items-center text-center mt-10 font-semibold text-xl underline hover:text-designColor"
-      >
-        Get My Resume
-      </Link>
+
+      <div className="mt-12 flex justify-center">
+        <Link
+          href="/assets/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full border border-gray-400 px-6 py-3 text-lg font-semibold text-gray-200 transition-all duration-300 hover:bg-white hover:text-black"
+        >
+          Get My Resume
+        </Link>
+      </div>
     </section>
   );
 };

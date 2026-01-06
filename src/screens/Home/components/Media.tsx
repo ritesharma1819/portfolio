@@ -1,13 +1,12 @@
 import Link from "next/link";
 
-import FacebookIcon from "@/public/assets/icons/facebookIcon.svg";
-import GraphqlIcon from "@/public/assets/icons/graphqlIcon.svg";
 import LinkedInIcon from "@/public/assets/icons/linkedInIcon.svg";
 import NextJsIcon from "@/public/assets/icons/nextJsIcon.svg";
 import ReactIcon from "@/public/assets/icons/reactIcon.svg";
 import TailwindIcon from "@/public/assets/icons/tailwindIcon.svg";
 import TwitterIcon from "@/public/assets/icons/twitterIcon.svg";
 import GithubIcon from "@/public/assets/icons/githubIcon.svg";
+import ExpoIcon from "@/public/assets/icons/expoIcon.svg";
 
 const Media = () => {
   return (
@@ -57,12 +56,8 @@ const Media = () => {
           >
             <ReactIcon className="w-8 h-8" />
           </Link>
-          <Link
-            className="bannerIcon"
-            href="https://graphql.org/"
-            target="_blank"
-          >
-            <GraphqlIcon className="w-8 h-8" />
+          <Link className="bannerIcon" href="https://expo.dev/" target="_blank">
+            <ExpoIcon className="w-8 h-8" />
           </Link>
           <Link
             className="bannerIcon"
